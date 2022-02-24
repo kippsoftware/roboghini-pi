@@ -1,0 +1,27 @@
+<html>
+<head>
+<title>Roboghini Pi</title>
+<style>
+html { background : #000; color : #fff; font-family : sans-serif; }
+div.background { text-align : center; padding : 0 0;}
+div.page { text-align : left; margin : auto; width : 900; }
+</style>
+</head>
+<body>
+<div class=background>
+<div class=page>
+<img id="camera" src="camera">
+<img id="detect" src="detect">
+<div id="time"></div>
+<script>
+function updateImages() {
+  var date = new Date();
+  var time = document.getElementById("time");
+  time.innerHTML = date.toTimeString().split(" ")[0];
+  var camera = document.getElementById("camera");
+  camera.src = "camera/" + date.getTime();
+  var detect = document.getElementById("detect");
+  detect.src = "detect/" + date.getTime();
+}
+setInterval(updateImages, 200);
+</script>
