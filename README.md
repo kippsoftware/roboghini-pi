@@ -19,11 +19,29 @@ traincascade.sh - read .vec file; read negative images; create cascade.xml
 
 # Drive the Roboghini Pi
 
-car.py - wrap the gpio with pulse width modulation; implement the drive forward, reverse, left, right
+install.sh - push the application and the vision system to the Roboghini Pi
+
+car.py - wrap the gpio with pulse width modulation; implement drive forward, reverse, left, right
 
 camera.py - wrap the picamera with a thread
 
 drive.py - read camera, run the cascade, drive the car
 
 roboghini.py - run a cherrypy server to share the car camera
+
+index.html - update car home page with camera and recognized image
+
+# Sample Data
+
+stopsign/ - positive images for recognition
+
+negative/ - negative images for recognition
+
+# Test
+
+detect.py - read the positive images and report the matched bounding box
+
+picamera.py - mock object for Pi camera
+
+gpiozero.py - mock object for Pi pin output
 
