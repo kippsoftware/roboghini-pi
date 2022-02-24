@@ -3,11 +3,17 @@ self-driving car prototype using OpenCV
 
 # The Robo-ghini Pi: DIY Computer Vision for a Self-driving Car
 
+![logo](docs/slides/01-logo.png)
+
 Automobiles that drive themselves are now cruising our roadways. It
 isn't magic! Combining a 1/24 scale Lamborghini, a Raspberry Pi
 computer, a digital camera, and integrating "Computer Vision" open
 source software, Kipp will show off a DIY concept car that actually
 drives itself.
+
+# How It Works
+
+docs/README.md - speaker notes from a talk I gave
 
 # Train the Vision System
 
