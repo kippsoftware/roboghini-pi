@@ -17,7 +17,7 @@ You may have heard of the Google Self-Driving Car.
 - Interior is designed for RIDING not DRIVING
 - All electric
 - On-board computing and redundant computing
-- Driven 2 million miles (2006)
+- Driven 2 million miles (2016)
 - All about safety
 
 National Highway Traffic Safety Administration (NHTSA)
