@@ -13,7 +13,7 @@ drives itself.
 
 # How It Works
 
-[docs/README.md](docs/README.md) - speaker notes from a talk I gave
+[docs/README.md](docs/README.md) - speaker notes from a talk I gave 
 
 # Train the Vision System
 
